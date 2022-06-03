@@ -1,9 +1,20 @@
+import { ChatContainer, Container, ContentContainer, ChatContent, TypingContainer } from "./styles";
 
-const Main = () => {
+function Main() {
     return (
-        <div>
-            <h1>Chat</h1>
-        </div>
+        <Container>
+            <ContentContainer>
+
+                <ChatContainer>
+                    <ChatContent>
+
+                    </ChatContent>
+                    <TypingContainer>
+
+                    </TypingContainer>
+                </ChatContainer>
+            </ContentContainer>
+        </Container>
     );
 }
 
