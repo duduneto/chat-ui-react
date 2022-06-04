@@ -7,7 +7,7 @@ export const Container = styled.div`
   `;
 
 export const ContentContainer = styled.div`
-  margin: .5rem 0;
+  margin: .6rem 0 0 0;
   min-width: 10rem;
 `;
 export const Balloon = styled.p`

@@ -3,7 +3,7 @@ import { ChatContainer, Container, ContentContainer, ChatContent, TypingContaine
 
 const messages = [
 	"Hello There",
-	"How are u doing? What's going on with u bro?"
+	"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mauris ac lacus pretium porta. Duis aliquet at urna sed hendrerit. Vivamus tincidunt scelerisque sagittis. Curabitur a tellus tellus. Integer rhoncus tortor ac erat posuere venenatis. Aenean scelerisque augue et sagittis finibus. Aenean placerat augue eu neque finibus, non interdum lorem sollicitudin."
 ]
 
 function Main() {
