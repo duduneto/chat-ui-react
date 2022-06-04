@@ -27,6 +27,8 @@ export const TypingContainer = styled.div`
 	height: ${typingContainerHeight}rem;
 	width: 100%;
 	background-color: #FFF;
+`;
 
-	/* position: absolute; */
+export const TypingFormContainer = styled.form`
+	display: flex;
 `;

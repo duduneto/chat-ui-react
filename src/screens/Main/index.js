@@ -1,5 +1,6 @@
-import { Balloons, TextareaInput } from '../../components';
+import { Balloons } from '../../components';
 import { ChatContainer, Container, ContentContainer, ChatContent, TypingContainer } from "./styles";
+import TypingForm from './TypingForm';
 
 const messages = [
 	"Hello There",
@@ -18,9 +19,7 @@ function Main() {
 						}
 					</ChatContent>
 					<TypingContainer>
-						<TextareaInput>
-
-						</TextareaInput>
+						<TypingForm />
 					</TypingContainer>
 				</ChatContainer>
 			</ContentContainer>
