@@ -1,12 +1,10 @@
 import React from 'react';
 
-import { Container, Button as ButtonStyled } from './styles';
+import { Button as ButtonStyled } from './styles';
 
-function Button() {
+function Button({children}) {
     return (
-        <Container>
-            <ButtonStyled />
-        </Container>
+        <ButtonStyled>{children}</ButtonStyled>
     );
 }
 

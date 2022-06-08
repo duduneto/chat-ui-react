@@ -5,10 +5,13 @@ import { TypingFormContainer } from './styles'
 function TypingForm() {
     return (
         <TypingFormContainer>
-            <TextareaInput>
-
-            </TextareaInput>
-            <Button />
+            <div>
+                <TextareaInput>
+                </TextareaInput>
+            </div>
+            <div>
+                <Button>Enviar</Button>
+            </div>
         </TypingFormContainer>
     );
 }
