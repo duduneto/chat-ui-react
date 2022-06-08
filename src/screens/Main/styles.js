@@ -34,4 +34,16 @@ width: 100%;
 height: 100%;
 display: flex;
 flex-direction: row;
+gap: 10px;
+`;
+export const TextInputContainer = styled.div`
+width: 85%;
+height: 100%;
+display: flex;
+justify-content: center;
+padding-left: 10px;
+`;
+export const CTAContainer = styled.div`
+width: 15%;
+height: 100%;
 `;

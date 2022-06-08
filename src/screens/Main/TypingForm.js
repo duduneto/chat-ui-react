@@ -1,17 +1,27 @@
 import React from 'react';
 import { Button, TextareaInput } from '../../components';
-import { TypingFormContainer } from './styles'
+import { TypingFormContainer, TextInputContainer, CTAContainer } from './styles'
 
 function TypingForm() {
+
+    const onSubmit = (event) => {
+        event.preventDefault();
+    }
+
     return (
-        <TypingFormContainer>
-            <div>
+        <TypingFormContainer
+        onSubmit={onSubmit}
+        >
+            <TextInputContainer>
                 <TextareaInput>
                 </TextareaInput>
-            </div>
-            <div>
-                <Button>Enviar</Button>
-            </div>
+            </TextInputContainer>
+            <CTAContainer>
+                <Button
+                height={'100%'}
+                bgColor={'#0000'}
+                >Enviar</Button>
+            </CTAContainer>
         </TypingFormContainer>
     );
 }
