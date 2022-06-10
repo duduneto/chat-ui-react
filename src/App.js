@@ -1,9 +1,12 @@
-import { Main } from './screens'
+import { Main } from './screens';
 import './App.css';
+import { ChatProvider } from './contexts/context.chat';
 
 function App() {
   return (
-    <Main />
+    <ChatProvider>
+      <Main />
+    </ChatProvider>
   );
 }
 
